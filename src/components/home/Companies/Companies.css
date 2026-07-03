@@ -1,0 +1,32 @@
+.companies {
+    padding: 50px 0;
+    text-align: center;
+    background: white;
+}
+
+.title {
+    color: var(--text-light);
+    margin-bottom: 30px;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.logos {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    font-size: 18px;
+    font-weight: 600;
+    color: var(--text-light);
+}
+
+.logos div {
+    transition: 0.3s;
+    cursor: default;
+}
+
+.logos div:hover {
+    color: var(--primary);
+    transform: translateY(-3px);
+}

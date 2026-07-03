@@ -1,0 +1,66 @@
+.pricing {
+    padding: 80px 0;
+    background: var(--background);
+}
+
+.section-header {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.section-header h2 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.section-header p {
+    color: var(--text-light);
+}
+
+/* Grid */
+.pricing-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+}
+
+/* Card */
+.pricing-card {
+    background: white;
+    padding: 30px;
+    border-radius: var(--radius);
+    box-shadow: var(--shadow);
+    text-align: center;
+    transition: 0.3s ease;
+}
+
+.pricing-card:hover {
+    transform: translateY(-6px);
+}
+
+/* Highlight plan */
+.pricing-card.active {
+    border: 2px solid var(--primary);
+    transform: scale(1.05);
+}
+
+/* Price */
+.pricing-card h1 {
+    font-size: 40px;
+    color: var(--primary);
+    margin: 15px 0;
+}
+
+/* Features list */
+.pricing-card ul {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+    text-align: left;
+}
+
+.pricing-card li {
+    margin: 10px 0;
+    font-size: 14px;
+    color: var(--text-light);
+}

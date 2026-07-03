@@ -1,0 +1,48 @@
+.auth-container {
+    width: 400px;
+    margin: 80px auto;
+    padding: 30px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: var(--shadow);
+    text-align: center;
+}
+
+.auth-container input {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+}
+
+.primary-btn {
+    width: 100%;
+    padding: 12px;
+    background: var(--primary);
+    color: white;
+    border: none;
+    margin-top: 15px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.role-select {
+    display: flex;
+    justify-content: space-between;
+    margin: 15px 0;
+}
+
+.role-select button {
+    flex: 1;
+    margin: 0 5px;
+    padding: 10px;
+    border: 1px solid var(--primary);
+    background: white;
+    cursor: pointer;
+}
+
+.role-select .active {
+    background: var(--primary);
+    color: white;
+}
