@@ -16,10 +16,10 @@ function Navbar() {
                 </div>
 
                 <div className="navbar-buttons">
-                    <Link to="/login">Login</Link>
-                    <Link to="/signup">Sign Up</Link>
-                    <Link to="/profile">Profile</Link>
-                    <Link to="/employer">Employer Dashboard</Link>
+                    <Link to="/login"><button>Login</button></Link>
+                    <Link to="/signup"><button>Sign Up</button></Link>
+                    <Link to="/profile"><button>Profile</button></Link>
+                    <Link to="/employer"><button>Employer Dashboard</button></Link>
                 </div>
 
             </div>

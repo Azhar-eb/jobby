@@ -22,12 +22,14 @@
 .nav-links {
     display: flex;
     gap: 2rem;
+
 }
 
 .nav-links a {
     color: var(--text);
     font-weight: 500;
     transition: .3s;
+    text-decoration: none;
 }
 
 .nav-links a:hover,
@@ -38,4 +40,22 @@
 .navbar-buttons {
     display: flex;
     gap: 1rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-buttons button {
+    background-color: var(--primary);
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.navbar-buttons button:hover {
+    background-color: var(--primary-dark);
+    color: var(--primary);
+    transition: background-color 0.3s ease;
 }
