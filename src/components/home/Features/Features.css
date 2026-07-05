@@ -11,6 +11,7 @@
 .section-header h2 {
     font-size: 36px;
     margin-bottom: 10px;
+
 }
 
 .section-header p {
@@ -21,6 +22,8 @@
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 25px;
+    padding-right: 20px;
+    padding-left: 20px;
 }
 
 /* Card */
@@ -34,12 +37,40 @@
 
 .feature-card:hover {
     transform: translateY(-8px);
+    background: var(--primary-light);
 }
 
 .feature-card .icon {
+
     font-size: 24px;
-    color: var(--primary);
     margin-bottom: 15px;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 50px;
+    height: 50px;
+
+}
+
+.feature-card:nth-child(1) .icon {
+    color: var(--primary);
+    background: rgba(65, 35, 155, 0.1);
+}
+
+.feature-card:nth-child(2) .icon {
+    color: pink;
+    background: rgba(231, 99, 229, 0.082);
+}
+
+.feature-card:nth-child(3) .icon {
+    color: green;
+    background: rgba(39, 174, 96, 0.1);
+}
+
+.feature-card:nth-child(4) .icon {
+    color: rgb(10, 153, 243);
+    background: rgba(10, 153, 243, 0.1);
 }
 
 .feature-card h3 {
