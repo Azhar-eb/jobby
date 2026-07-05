@@ -74,7 +74,7 @@ function Hero() {
                     animate={{ opacity: 1, x: 0 }}
                     transition={{ duration: 0.6 }}
                 >
-
+                    <img src="../../src/assets/images/int.jpg" alt="Hero img" className="hero-img" />
                     <div className="hero-card">
                         🎥 Video Profile Uploaded
                     </div>
