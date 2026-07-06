@@ -20,6 +20,7 @@
     padding-left: 1rem;
 }
 
+/* Navigation links */
 .nav-links {
     display: flex;
     gap: 2rem;
@@ -38,6 +39,7 @@
     color: var(--primary);
 }
 
+/* login and signup buttons */
 .navbar-buttons {
     display: flex;
     gap: 1rem;
