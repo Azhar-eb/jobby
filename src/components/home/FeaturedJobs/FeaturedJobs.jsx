@@ -7,25 +7,25 @@ function FeaturedJobs() {
             title: "Frontend Developer",
             company: "TechCorp",
             location: "Remote",
-            salary: "$3,000 - $5,000"
+            salary: "BHD500 - BHD800"
         },
         {
             title: "Backend Developer",
             company: "InnovateX",
             location: "Bahrain",
-            salary: "$2,500 - $4,500"
+            salary: "BHD500 - BHD1000"
         },
         {
             title: "UI/UX Designer",
             company: "DesignHub",
             location: "Remote",
-            salary: "$2,000 - $3,500"
+            salary: "BHD500 - BHD900"
         },
         {
             title: "Marketing Specialist",
             company: "Growthify",
             location: "Dubai",
-            salary: "$2,200 - $4,000"
+            salary: "Negotiable"
         }
     ];
 

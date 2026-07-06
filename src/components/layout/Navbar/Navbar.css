@@ -17,6 +17,7 @@
     font-size: 1.7rem;
     font-weight: 700;
     color: var(--primary);
+    padding-left: 1rem;
 }
 
 .nav-links {
@@ -42,6 +43,7 @@
     gap: 1rem;
     justify-content: space-between;
     align-items: center;
+    padding-right: 1rem;
 }
 
 .navbar-buttons button {
