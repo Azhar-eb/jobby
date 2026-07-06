@@ -10,6 +10,7 @@ function Pricing() {
             features: [
                 "Create profile",
                 "Upload CV",
+                "Upload Video",
                 "Browse jobs"
             ]
         },
@@ -23,7 +24,6 @@ function Pricing() {
                 "Watch 30s of video",
                 "Post 5 jobs"
             ],
-            highlight: true
         },
         {
             name: "Premium",

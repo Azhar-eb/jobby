@@ -35,11 +35,12 @@
 }
 
 .pricing-card:hover {
+    border: 2px solid var(--primary);
     transform: translateY(-6px);
 }
 
 /* Highlight plan */
-.pricing-card.active {
+.pricing-card:active {
     border: 2px solid var(--primary);
     transform: scale(1.05);
 }
