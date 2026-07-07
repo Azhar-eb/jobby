@@ -1,5 +1,5 @@
 export const MAINROUTES = {
-  HOME: "/home",
+  HOME: "/",
   LOGIN: "/login",
   SIGNUP: "/signup",
   EMPLOYER_DASHBOARD: "/employer",

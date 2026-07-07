@@ -8,7 +8,7 @@ import EmployerDashboard from "./pages/Employer/EmployerDashboard";
 import Profile from "./pages/Profile/Profile";
 import About from "./pages/About/About";
 import { MAINROUTES } from "./constants/routes";
-
+import { redirect } from "react-router";
 function App() {
     return (
         <Routes>
@@ -21,6 +21,7 @@ function App() {
             <Route path={MAINROUTES.JOBS} element={<MainLayout><div>Jobs Page</div></MainLayout>} />
             <Route path={MAINROUTES.CANDIDATES} element={<MainLayout><div>Candidates Page</div></MainLayout>} />
             <Route path={MAINROUTES.ABOUT} element={<MainLayout><About /></MainLayout>} />
+            <Route path="*" element={<MainLayout><div>Page Not Found</div></MainLayout>} />
         </Routes>
     );
 }
