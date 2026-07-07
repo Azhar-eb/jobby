@@ -1,17 +1,12 @@
-import MainLayout from "../../layouts/MainLayout";
+import React from 'react';
 
-function Home() {
-    return (
-        <MainLayout>
 
+function About() {
+    return (       
             <div className="container">
-
-                <h1>Welcome to Jobby</h1>
-
+                <h1>About Jobby</h1>
             </div>
-
-        </MainLayout>
     );
 }
 
-export default Home;
+export default About;

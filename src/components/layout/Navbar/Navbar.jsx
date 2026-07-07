@@ -1,7 +1,13 @@
 import { Link } from "react-router-dom";
 import "./Navbar.css";
+import { useContext } from "react";
+import { AuthContext } from "../../../context/AuthContext";
+import { MAINROUTES } from "../../../constants/routes";
 
 function Navbar() {
+
+    const { isAuthenticated, user, logout } = useContext(AuthContext);
+
     return (
         <nav className="navbar">
 
@@ -9,17 +15,30 @@ function Navbar() {
 
                 <h1 className="logo">JOBBY</h1>
 
-                <div className="nav-links">
-                    <Link to="/jobs">Find Jobs</Link>
-                    <Link to="/candidates">Find Candidates</Link>
-                    <Link to="/about">About</Link>
-                </div>
+                {isAuthenticated && (
+                    <div className="nav-links">
+                        <Link to={MAINROUTES.JOBS}>Find Jobs</Link>
+                        <Link to={MAINROUTES.CANDIDATES}>Find Candidates</Link>
+                        <Link to={MAINROUTES.ABOUT}>About</Link>
+                    </div>
+                )}
 
                 <div className="navbar-buttons">
-                    <Link to="/login"><button>Login</button></Link>
-                    <Link to="/signup"><button>Sign Up</button></Link>
-                    <Link to="/profile"><button>Profile</button></Link>
-                    <Link to="/employer"><button>Employer Dashboard</button></Link>
+                    {isAuthenticated ? (
+                        <>
+                            <Link to={MAINROUTES.PROFILE}><button>Profile</button></Link>
+                            <Link to={MAINROUTES.EMPLOYER}><button>Employer Dashboard</button></Link>
+                            <button onClick={logout}>Logout</button>
+
+                        </>
+                    ) : (
+                        <>
+                            <Link to={MAINROUTES.LOGIN}><button>Login</button></Link>
+                            <Link to={MAINROUTES.SIGNUP}><button>Sign Up</button></Link>
+
+                        </>
+                    )}
+
                 </div>
 
             </div>
