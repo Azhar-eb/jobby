@@ -1,6 +1,6 @@
 import { createContext, useState } from "react";
 
-// ✅ ONLY ONCE
+
 export const AuthContext = createContext();
 
 export function AuthProvider({ children }) {
