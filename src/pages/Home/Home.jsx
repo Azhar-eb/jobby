@@ -1,5 +1,3 @@
-import MainLayout from "../../layouts/MainLayout";
-
 import Hero from "../../components/home/Hero/Hero";
 import Companies from "../../components/home/Companies/Companies";
 import Features from "../../components/home/Features/Features";
@@ -11,7 +9,7 @@ import CTA from "../../components/home/CTA/CTA";
 
 function Home() {
     return (
-        <MainLayout>
+        <>
             <Hero />
             <Companies />
             <Features />
@@ -20,7 +18,7 @@ function Home() {
             <Testimonials />
             <Pricing />
             <CTA />
-        </MainLayout>
+        </>
     );
 }
 
