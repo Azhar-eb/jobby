@@ -35,6 +35,7 @@
 .step:hover {
     transform: translateY(-8px);
     box-shadow: var(--shadow);
+    background: rgba(65, 35, 155, 0.1);
 }
 
 /* Icon */

@@ -4,7 +4,7 @@ import "./CTA.css";
 function CTA() {
     return (
         <section className="cta">
-            <div className="container cta-container">
+            <div className="cta-container">
 
                 <h2>Start Hiring Smarter. Or Get Hired Faster.</h2>
 

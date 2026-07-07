@@ -32,7 +32,7 @@ function FeaturedJobs() {
     return (
         <section className="jobs">
             <div className="container">
-
+                {/*TITLE OF THE SECTION*/}
                 <div className="section-header">
                     <h2>Featured Jobs</h2>
                     <p>Explore opportunities from top companies</p>
