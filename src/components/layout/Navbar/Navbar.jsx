@@ -13,7 +13,9 @@ function Navbar() {
 
             <div className="navbar-container">
 
-                <h1 className="logo">JOBBY</h1>
+                <Link to={MAINROUTES.HOME}>
+                    <h1 className="logo">JOBBY</h1>
+                </Link>
 
                 {isAuthenticated && (
                     <div className="nav-links">

@@ -18,7 +18,9 @@
     font-weight: 700;
     color: var(--primary);
     padding-left: 1rem;
+    text-decoration: none;
 }
+
 
 /* Navigation links */
 .nav-links {
