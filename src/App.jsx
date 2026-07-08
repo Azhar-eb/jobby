@@ -22,6 +22,7 @@ function App() {
             <Route path={MAINROUTES.CANDIDATES} element={<MainLayout><div>Candidates Page</div></MainLayout>} />
             <Route path={MAINROUTES.ABOUT} element={<MainLayout><About /></MainLayout>} />
             <Route path="*" element={<MainLayout><div>Page Not Found</div></MainLayout>} />
+            
         </Routes>
     );
 }

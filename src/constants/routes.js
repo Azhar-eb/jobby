@@ -9,4 +9,5 @@ export const MAINROUTES = {
   ABOUT: "/about",
 };
 
-export const unprotectedRoutes = [MAINROUTES.LOGIN, MAINROUTES.SIGNUP];
+
+export const unprotectedRoutes = [MAINROUTES.HOME, MAINROUTES.LOGIN, MAINROUTES.SIGNUP];
